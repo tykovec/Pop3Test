@@ -48,5 +48,13 @@ namespace Test.Properties {
                 return ((global::Test.Settings.Pop3)(this["Pop3"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        public global::Test.Settings.Db Db {
+            get {
+                return ((global::Test.Settings.Db)(this["Db"]));
+            }
+        }
     }
 }

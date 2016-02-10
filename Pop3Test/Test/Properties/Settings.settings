@@ -16,5 +16,8 @@
                     &lt;/Pop3&gt;
                 </Value>
     </Setting>
+    <Setting Name="Db" Type="Test.Settings.Db" Scope="Application">
+      <Value Profile="(Default)" />
+    </Setting>
   </Settings>
 </SettingsFile>

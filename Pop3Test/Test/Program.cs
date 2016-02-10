@@ -10,10 +10,11 @@ namespace Test
 
         static void Main(string[] args)
         {
+            log4net.Config.XmlConfigurator.Configure();
             //if (args.Length == 0)
             //    return;
 
-           Downloader.Download();
+            Downloader.Download();
 
 
            Console.ReadKey();

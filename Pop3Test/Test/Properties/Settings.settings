@@ -1,0 +1,20 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Test.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="Interval" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">10</Value>
+    </Setting>
+    <Setting Name="Pop3" Type="Test.Settings.Pop3" Scope="Application">
+      <Value Profile="(Default)">
+                    &lt;Pop3&gt;
+                        &lt;HostName&gt;xxx&lt;/HostName&gt;
+                        &lt;Port&gt;995&lt;/Port&gt;
+                        &lt;UseSSL&gt;true&lt;/UseSSL&gt;
+                        &lt;UserName&gt;xxx&lt;/UserName&gt;
+                        &lt;Password&gt;xxx&lt;/Password&gt;
+                    &lt;/Pop3&gt;
+                </Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

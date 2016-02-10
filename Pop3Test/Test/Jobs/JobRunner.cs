@@ -7,7 +7,8 @@ namespace Test.Jobs
 {
     public class JobRunner
     {
-        private static readonly ILog _logger = LogManager.GetLogger(typeof(RetrievePop3DataJob));
+
+        private static readonly ILog _logger = LogManager.GetLogger(typeof(JobRunner));
 
         public static void RunJobs()
         {
@@ -44,5 +45,6 @@ namespace Test.Jobs
 
             return tb.Build();
         }
+
     }
 }
